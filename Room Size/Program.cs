@@ -24,8 +24,8 @@ public class PerimeterofRoom
 
         double Perimeter = 2 * (Length + Width);
         double Area = (Length * Width);
-        double Volume = (Length * Height);
-        double SurfaceArea = (Length * Area);
+        double Volume = (Area * Height);
+        double SurfaceArea = (2 * (Length * Width) + 2*(Length * Height) + 2*(Height * Width));
 
 
 
