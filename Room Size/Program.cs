@@ -35,7 +35,7 @@ public class PerimeterofRoom
         Console.WriteLine("Surface Area of Room is: " + SurfaceArea);
 
         if (Area < 251) Console.WriteLine("Room is considered: Small");
-        else if (Area > 250 && Area < 649) Console.WriteLine("Room is considered: Medium");
+        else if (Area > 250 && Area <= 649) Console.WriteLine("Room is considered: Medium");
         else if (Area > 649) Console.WriteLine("Room is considered: Large");
 
 
