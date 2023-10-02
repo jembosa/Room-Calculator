@@ -34,9 +34,18 @@ public class PerimeterofRoom
         Console.WriteLine("Volume of Room is: " +  Volume);
         Console.WriteLine("Surface Area of Room is: " + SurfaceArea);
 
-        if (Area < 251) Console.WriteLine("Room is considered: Small");
-        else if (Area > 250 && Area <= 649) Console.WriteLine("Room is considered: Medium");
-        else if (Area > 649) Console.WriteLine("Room is considered: Large");
+        if (Area < 251)
+        {
+            Console.WriteLine("Room is considered: Small");
+        }
+        else if (Area > 250 && Area <= 649)
+        {
+            Console.WriteLine("Room is considered: Medium");
+        }
+        else if (Area > 649)
+        {
+            Console.WriteLine("Room is considered: Large");
+        }
 
 
         Console.WriteLine("Thank you for using the Room Detail Generator!"); 
