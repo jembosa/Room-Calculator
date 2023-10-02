@@ -19,7 +19,7 @@ public class PerimeterofRoom
         Console.Write("What is the Length of your room?");
         double Width = Convert.ToDouble(Console.ReadLine());
 
-        Console.WriteLine("What is the Height of your room?");
+        Console.Write("What is the Height of your room?");
         double Height = Convert.ToDouble(Console.ReadLine());
 
         double Perimeter = 2 * (Length + Width);
