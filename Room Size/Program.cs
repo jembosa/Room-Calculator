@@ -13,13 +13,13 @@ public class PerimeterofRoom
     {
 
         Console.WriteLine("Welcome to Grand Circus’ Room Detail Generator!");
-        Console.Write("What is the width of your room?");
+        Console.Write("What is the width of your room? ");
         double Length = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("What is the Length of your room?");
+        Console.Write("What is the Length of your room? ");
         double Width = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("What is the Height of your room?");
+        Console.Write("What is the Height of your room? ");
         double Height = Convert.ToDouble(Console.ReadLine());
 
         double Perimeter = 2 * (Length + Width);
